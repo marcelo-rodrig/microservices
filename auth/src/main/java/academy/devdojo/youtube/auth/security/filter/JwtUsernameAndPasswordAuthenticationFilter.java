@@ -1,5 +1,5 @@
 package academy.devdojo.youtube.auth.security.filter;
-
+ 
 import academy.devdojo.youtube.core.model.ApplicationUser;
 import academy.devdojo.youtube.core.property.JwtConfiguration;
 import academy.devdojo.youtube.security.token.creator.TokenCreator;

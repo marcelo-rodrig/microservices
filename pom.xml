@@ -18,6 +18,8 @@
         <module>course</module>
         <module>core</module>
         <module>token</module>
+        <module>financeiro</module>
+        <module>contabil</module>
     </modules>
     <properties>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>

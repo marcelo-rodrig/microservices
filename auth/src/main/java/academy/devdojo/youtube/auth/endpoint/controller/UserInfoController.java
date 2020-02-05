@@ -1,5 +1,5 @@
 package academy.devdojo.youtube.auth.endpoint.controller;
-
+ 
 import academy.devdojo.youtube.core.model.ApplicationUser;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

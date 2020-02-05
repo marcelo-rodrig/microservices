@@ -1,5 +1,5 @@
 package academy.devdojo.youtube.auth.security.config;
-
+ 
 import academy.devdojo.youtube.auth.security.filter.JwtUsernameAndPasswordAuthenticationFilter;
 import academy.devdojo.youtube.core.property.JwtConfiguration;
 import academy.devdojo.youtube.security.config.SecurityTokenConfig;
