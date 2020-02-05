@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>academy.devdojo.youtube</groupId>
@@ -9,11 +8,12 @@
         <relativePath>../</relativePath> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>auth</artifactId>
+    <artifactId>suprimentos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auth</name>
-    <description>DevDojo Authentication Service</description>
-
+    <name>suprimentos</name>
+    <description>Modulo de suprimentos</description>
+    
+    
     <properties>
         <java.version>11</java.version>
         <devdojo-core.version>1.0-SNAPSHOT</devdojo-core.version>
@@ -31,20 +31,10 @@
             <artifactId>core</artifactId>
             <version>${devdojo-core.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-test</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
-        <finalName>auth</finalName>
+        <finalName>suprimentos</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -64,5 +54,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

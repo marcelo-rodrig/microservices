@@ -14,7 +14,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableConfigurationProperties(value = JwtConfiguration.class)
 @ComponentScan("academy.devdojo.youtube")
 public class ContabilApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ContabilApplication.class, args);
     }

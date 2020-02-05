@@ -20,6 +20,7 @@
         <module>token</module>
         <module>financeiro</module>
         <module>contabil</module>
+        <module>suprimentos</module>
     </modules>
     <properties>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>

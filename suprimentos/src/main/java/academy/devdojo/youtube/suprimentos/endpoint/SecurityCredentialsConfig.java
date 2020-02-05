@@ -1,4 +1,4 @@
-package academy.devdojo.youtube.contabil.controller;
+package academy.devdojo.youtube.suprimentos.endpoint;
 
 import academy.devdojo.youtube.core.property.JwtConfiguration;
 import academy.devdojo.youtube.security.config.SecurityTokenConfig;
