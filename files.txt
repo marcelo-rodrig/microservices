@@ -1,2 +1,3 @@
-auth	  core	  devdojo-microservices.iml  files.txt	 gateway  README.md
-contabil  course  discovery		     financeiro  pom.xml  token
+auth	  course		     files.txt	 pom.xml      token
+contabil  devdojo-microservices.iml  financeiro  README.md
+core	  discovery		     gateway	 suprimentos
